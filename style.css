@@ -163,17 +163,15 @@ input::placeholder:active {
 /* TV-Section */
 
 #heading-first {
-    margin: 0px 0px 36px;
+    padding-bottom: 22px;
     font-size: 3.2vw;
     color: #ffffff;
     font-family: var(--font-family--)
 }
 
 #heading-second {
-    width: 25vw;
     font-size: 1.3rem;
     font-family: var(--font-family--);
-    color: #e6dddd;
     font-weight: 200;
     color: #ffffffb3;
 }
@@ -186,14 +184,13 @@ input::placeholder:active {
     display: flex;
     padding: 0px 7.71vw;
     justify-content: space-between;
-    align-items: center;
-   
+    align-items: center; 
 }
 
 .tv-img {
     height: 20vw;
     width: 33vw;
-    border-radius: 8px;
+    border-radius: 4px;
 }
 
 /* Download section */
@@ -389,8 +386,8 @@ footer{
         font-weight: 600;
     }
     #heading2 {
+        margin-bottom: 20px;
         font-size: 1rem;
-        font-weight: 250;
     }
     #heading3 {
         font-size: 0.9rem;
@@ -405,6 +402,66 @@ footer{
         font-weight: 500;
         font-size: 1.2rem;
     }  
+    /* sections */
+    
+    #heading-first {
+        font-size: 26px;
+    }
+    #heading-second {
+        padding-bottom: 35px;
+        font-size: 1rem;
+        font-weight: 200;
+    }
+    .tv {
+        height: 500px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+    }
+    .tv-img {
+        height: 40vw;
+        width: 63vw;
+    }
+    #headingDownload {
+        padding-bottom: 10px;
+        font-size: 22px;
+        text-align: center;
+        font-family: var(--font-family--);
+    }
+    .download {
+        height: 500px;
+        flex-direction: column;
+        justify-content: center ;
+        align-items: center;
+    }
+    
+    .download-img {
+        padding-bottom: 20px;
+        height: 50vw;
+        width: 70vw;
+    }
+    .laptop {
+        height: 500px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .laptop-img {
+        height: 40vw;
+        width: 63vw;
+    }
+    .kids {
+        height: 500px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .kids-img {
+        height: 45vw;
+        width: 65vw;
+    }
     /* Question */
     .questions-answers {
         padding: 0px 7.71vw;
@@ -420,7 +477,7 @@ footer{
         font-size: 18px;
     }
     .bottom-validation .bottom-email {
-        padding: 12px 37vw 12px 2vw;
+        width: 61vw;
     }
     /* footer */
     .fcontainer {
