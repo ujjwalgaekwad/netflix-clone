@@ -9,7 +9,7 @@ const signinCodeParagraph = document.getElementById("singin-code");
 function validation() {
     let emailAddress = document.getElementById("email").value.trim();
     let password = document.getElementById("password").value.trim();
-    if (emailAddress == " " || password == "") {
+    if (emailAddress == "" && password == "") {
         emailParagraph.style.display = "block";
         passwordParagraph.style.display = "block";
         emailAdd.style.border = "1.5px solid #EB3942"
@@ -22,6 +22,8 @@ function validation() {
         passwordParagraph.style.color = "#EB3942";
         passwordParagraph.style.fontSize = "0.8rem";
         passwordParagraph.style.textAlign = "start";
+        emailAddress.focus();
+        password.focus();
         return false;
 
     }
